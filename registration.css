@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body{
+    background: white;
+  }
+  
+  
+  
+    
+    
+    
+    #nav{
+      
+      width: 100%;
+      height:60%;
+      padding: 20px;
+      display: flex;
+     
+      margin-bottom: 20px;
+      background: #135d99
+  }
+  .box{width:100%;
+    background-image: linear-gradient(to bottom right, rgb(87, 162, 192), aquamarine); 
+    float:left;
+    display:inline;
+    margin-bottom: 20px;
+    }
+    
+    
+    .box ul li{
+      width:19%;
+      float:left;
+      margin: 2px;
+      padding-right: 180px;
+      font-size: 20px;
+      display: block;
+     
+      
+    }
+    .box ul li .active{  
+      background-color: aquamarine; 
+      color: black;  }
+    
+    
+
+      .box ul li.current{ background-color: #135d99; 
+        color: white; }
+  
+  
+  #header{
+    margin-top: 30px;;
+  }
+      
+  
+        #heading{
+            width:30%;
+            height:2%;
+            
+            display:flex;
+            justify-content: flex-start;
+  
+            
+            
+            padding-left: 20px;
+  
+            font-weight: 400;
+            color: #1c1c21;
+        }
+  
+        
+  
+        .login{  
+
+            width: 50%;  
+            height:40%;
+            overflow: hidden;  
+            margin: auto;  
+            margin: 20 0 0 600px;  
+            margin-bottom:20px;
+            padding: 80px;  
+            background-image: linear-gradient(to bottom right, rgb(36, 120, 153), aquamarine); 
+
+             
+              
+    }  
+    h2{  
+        text-align: center;  
+        color: #277582;  
+        padding: 20px;  
+    }  
+    label{  
+        
+        font-size: 17px;  
+    }  
+    #pessatid{ margin-left: 14%;
+        width: 300px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 3px;  
+        padding-left: 8px;  
+    }  
+    #name{margin-left: 19%;
+        width: 300px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 3px;  
+        padding-left: 8px;  
+    }
+    #pucmarks{ margin-left: 11%;
+            width: 300px;  
+            height: 30px;  
+            border: none;  
+            border-radius: 3px;  
+            padding-left: 8px;  
+          
+    }  
+    #mobile{margin-left: 18%;
+        width: 200px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 3px;  
+        padding-left: 8px;  
+    }
+    #email{ margin-left: 19%;
+            width: 200px;  
+            height: 30px;  
+            border: none;  
+            border-radius: 3px;  
+            padding-left: 8px;  
+    }
+    #log{  
+        margin-left: 40%;
+        width: 100px;  
+        height: 30px;  
+        border: none;  
+        border-radius: 17px; 
+       
+         
+        color: blue;  
+      
+      
+    }  
+    span{  
+        color: white;  
+        font-size: 17px;  
+    }  
+    .fa{
+        float:right
+    }
+    footer{
+        display: flex;
+        align-items: center;
+
+        background: #135d99;
+
+        padding: 50px;
+    }
+
+        #year{
+            width: 50%;
+
+            padding-left: 20px;
+
+            font-weight: 300;
+            color: white
+        }
+
+        #credits{
+            width: 50%;
+
+            display: flex;
+            justify-content: flex-end;
+
+            padding-right: 20px;
+
+            font-weight: 300;
+            color: white;
+        }
+
+            #credits span{
+                margin-left: 5px;
+                font-weight: 800;
+            }
+
+#otp-button {
+    background-color: #ffffff66;
+}
+#otp-button:hover {
+    background-color: white;
+    cursor: pointer;
+}

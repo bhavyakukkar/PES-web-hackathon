@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: Impact;
+}
+.hero{
+  height: 100vh;
+  
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+}
+.hero h1{
+  color: grey;
+  font-size: 50px;
+}
+.nav-bar{
+  display: flex;
+  padding: 40px 120px;
+}
+.nav-links{
+  flex: 1;
+}
+.nav-links ul{
+  margin-left: 50px;
+  display: inline;
+}
+.nav-links ul li{
+  list-stlye: none;
+  display: inline-block;
+  padding: 8px 25px
+}
+.nav-links ul li{
+  color: grey;
+  text-decoration: none;
+  font-size: 25px;
+}
+.nav-links ul li::after{
+  content:'';
+  width:0;
+  height: 2px;
+  background: black;
+  display: block;
+  margin: auto;
+  transition: .5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+.content-t{
+  border-collapse:collapse;
+  margin: 150px 320px;
+  font-size: 25px;
+  min-width: 400px;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+.content-t thead tr{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+
+}
+.content-t th,.content-t td{
+  padding: 15px 15px;
+}
+.content-t tbody tr{
+  border-bottom: 1px solid black;
+  background-color: white;
+}

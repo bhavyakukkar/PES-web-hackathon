@@ -1,0 +1,1 @@
+start from registration.php
